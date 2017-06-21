@@ -1,12 +1,12 @@
-#koa-rigger
+# koa-rigger
 
 ## Install
 
-```
+```bash
 npm install koa-rigger
 ```
 
-##Useage
+## Useage
 
 ```bash
 // in your project root run
