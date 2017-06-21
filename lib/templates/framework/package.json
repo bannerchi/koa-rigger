@@ -1,0 +1,41 @@
+{
+  "name": "koa-service",
+  "version": "1.0.0",
+  "description": "vidaxl service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "mocha": "node node_modules/.bin/mocha tests/main/**/*.js -R spec -r tests/tools/mocha-req.js",
+    "test": "npm run mocha"
+  },
+  "author": "ron.chi",
+  "license": "MIT",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-nodemon": "^2.2.1",
+    "mocha": "^3.4.2",
+    "node-notifier": "^5.1.2",
+    "require-dir": "^0.3.2"
+  },
+  "dependencies": {
+    "config": "^1.26.1",
+    "jsonwebtoken": "^7.4.1",
+    "koa": "^2.2.0",
+    "koa-allow-origin": "0.0.1",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-logger": "^3.0.0",
+    "koa-router": "^7.2.0",
+    "koa-static": "^3.0.0",
+    "koa2-swagger-ui": "^2.4.5",
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "moment": "^2.18.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}

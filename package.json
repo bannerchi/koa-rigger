@@ -1,0 +1,19 @@
+{
+  "name": "koa-rigger",
+  "version": "0.2.3",
+  "author": "ron.chi",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bin": {
+    "koa-rigger": "./bin/cli.js"
+  },
+  "keywords": ["koa2", "koa-rigger"],
+  "dependencies": {
+    "alphabetjs": "^0.1.3",
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "shelljs": "^0.7.0"
+  }
+}
