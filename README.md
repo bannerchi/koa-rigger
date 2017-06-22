@@ -1,4 +1,5 @@
 # koa-rigger
+This is a rigger of koa2 
 
 ## Install
 
@@ -9,8 +10,7 @@ npm i -g koa-rigger
 ## Useage
 
 ```bash
-// in your project root run
-// you can create a structure of this framework 
+//run in your project root,  you can create a structure of this framework 
 koa-rigger init [Your project name]
 
 
