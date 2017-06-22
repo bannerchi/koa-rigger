@@ -1,10 +1,10 @@
 {
   "name": "koa-rigger",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "author": "ron.chi",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/bannerchi/koa-rigger.git"
   },
   "bin": {
     "koa-rigger": "./bin/cli.js"

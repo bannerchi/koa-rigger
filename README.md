@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm install koa-rigger
+npm i -g koa-rigger
 ```
 
 ## Useage
