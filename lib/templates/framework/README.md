@@ -3,6 +3,15 @@
 *node.js v7.6 + required*
 
 ## Usage
+With Docker:
+1. Install docker-compose
+2. cd {YOUR WORK ROOT DIR}
+3. `docker-compose up -d`
+4. `docker-compose logs -f` to see logs
+5. enjoy 
+
+Local device:
+
 Install packages with npm
 ```
 npm i 

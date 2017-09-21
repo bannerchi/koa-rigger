@@ -1,0 +1,15 @@
+version: "2"
+services:
+  node:
+    image: "ronchi25/node-ronchi"
+    container_name: "koa-backend-dev"
+    environment:
+      - NODE_ENV=development
+    command: bash -c "cd /usr/src/app && npm i && gulp"
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - 3000:3000
+    expose:
+      - "8080"
+      - "3000"

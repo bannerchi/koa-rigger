@@ -1,6 +1,6 @@
 {
   "name": "koa-rigger",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "author": "ron.chi",
   "repository": {
     "type": "git",
@@ -9,11 +9,18 @@
   "bin": {
     "koa-rigger": "./bin/cli.js"
   },
-  "keywords": ["koa2", "koa-rigger"],
+  "keywords": [
+    "koa2",
+    "koa-rigger"
+  ],
   "dependencies": {
     "alphabetjs": "^0.1.3",
     "chalk": "^1.1.3",
     "commander": "^2.9.0",
     "shelljs": "^0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-plugin-react": "^7.3.0"
   }
 }
